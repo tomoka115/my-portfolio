@@ -9,27 +9,24 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <script src="main.js"></script>
     <header>
       <h1>My Portfolio</h1>
     </header>
 
     <section>
-      <h2>plofile</h2>
-      <p>name: 堀智佳</p>
-      <p>age: 20</p>
-      <p>birthday: 2003/1/15</p>
+      <h2>Profile</h2>
+      <p>Name: 堀智佳</p>
+      <p>Age: 20</p>
+      <p>Birthday: 2003/1/15</p>
     </section>
 
     <section id="quizSection">
       <h2>趣味クイズ</h2>
-      <p>あなたの趣味は何でしょう？</p>
-      <ul>
-        <li id="movieChoice">映画鑑賞</li>
-        <li id="walkChoice">散歩</li>
-        <li id="bakingChoice">お菓子作り</li>
-      </ul>
-      <button onclick="checkAnswer()">回答する</button>
+      <p>わたしの趣味は何でしょう？</p>
+      <button id="movieChoice">映画鑑賞</button>
+      <button id="walkChoice">散歩</button>
+      <button id="bakingChoice">お菓子作り</button>
+      <p id="quizResult"></p>
     </section>
   
     <section id="hobbySection" class="hidden">
@@ -56,10 +53,6 @@
           <a href="映画3のリンク" target="_blank">詳細を見る</a>
         </li>
       </ul>
-    </section>
-  
-    <section id="resultSection" class="hidden">
-      <p id="quizResult"> </p>
     </section>
   </body>
 </html>
