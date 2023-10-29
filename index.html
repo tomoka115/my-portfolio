@@ -10,6 +10,56 @@
   </head>
   <body>
     <script src="main.js"></script>
-    <h1>ポートフォリオサイト</h1>
+    <header>
+      <h1>My Portfolio</h1>
+    </header>
+
+    <section>
+      <h2>plofile</h2>
+      <p>name: 堀智佳</p>
+      <p>age: 20</p>
+      <p>birthday: 2003/1/15</p>
+    </section>
+
+    <section id="quizSection">
+      <h2>趣味クイズ</h2>
+      <p>あなたの趣味は何でしょう？</p>
+      <ul>
+        <li id="movieChoice">映画鑑賞</li>
+        <li id="walkChoice">散歩</li>
+        <li id="bakingChoice">お菓子作り</li>
+      </ul>
+      <button onclick="checkAnswer()">回答する</button>
+    </section>
+  
+    <section id="hobbySection" class="hidden">
+      <h2>趣味</h2>
+      <p>趣味: 映画鑑賞</p>
+      <h3>おすすめ映画</h3>
+      <ul>
+        <li>
+          <h4>メタモルフォーゼの縁側</h4>
+          <p>映画1の説明</p>
+          <img src="movie1.jpg" alt="映画1">
+          <a href="映画1のリンク" target="_blank">詳細を見る</a>
+        </li>
+        <li>
+          <h4>映画2</h4>
+          <p>映画2の説明</p>
+          <img src="movie2.jpg" alt="映画2">
+          <a href="映画2のリンク" target="_blank">詳細を見る</a>
+        </li>
+        <li>
+          <h4>映画3</h4>
+          <p>映画3の説明</p>
+          <img src="movie3.jpg" alt="映画3">
+          <a href="映画3のリンク" target="_blank">詳細を見る</a>
+        </li>
+      </ul>
+    </section>
+  
+    <section id="resultSection" class="hidden">
+      <p id="quizResult"> </p>
+    </section>
   </body>
 </html>
